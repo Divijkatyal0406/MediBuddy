@@ -1,0 +1,15 @@
+{
+  "name": "medibuddy",
+  "version": "1.0.0",
+  "description": "Decentralized platform for patient and doctor to connect securely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "solc": "^0.4.24",
+    "web3": "^0.20.0"
+  },
+  "author": "Divij Katyal",
+  "license": "ISC"
+}
