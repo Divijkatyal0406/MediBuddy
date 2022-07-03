@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SwasthyaChain</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    
+    <script src="js/bundle.js"></script>
+
+
+    <!-- Custom CSS -->
+    <style>
+    .panel-heading{
+        margin-bottom: 20px;
+    }
+    .navbar{
+        margin-bottom: 70px;
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SwasthyaChain</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="./index.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="./register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div><div id="includedContent"></div></div>
+    
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading"><h3 class="text-center">Welcome to SwasthyaChain</h3></div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="alert alert-warning col-sm-8 col-sm-offset-2" style="display: none;">
+                        <strong>Warning!</strong> Unregistered user. Click <a href="./register.html">here</a> to register. 
+                
+                    </div>
+                </div>
+                
+                <form class="form-horizontal" name="loginForm">
+                    <div class="panel-heading"><h5 class="text-center">Login is Linked to your Metamask Account</h5></div>
+                    <div class="form-group">
+                    </div>
+                </form>
+                <div class="text-center">
+                    <button class="btn btn-primary btn-lg" onclick="login()">Login</button>
+                </div>
+
+            </div>
+            <div class="panel-footer">
+            </div>
+        </div>
+        
+     
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/web3.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        $(function(){
+      $("#includedContent").load("anim.html"); 
+    });
+
+        connect();    
+        function login(){
+            $(".alert-warning").hide();
+
+            publicKey= web3.currentProvider.selectedAddress;
+            console.log(publicKey);
+            contractInstance.get_patient_list(function(error, result){
+                if(!error){
+                    var PatientList = result;
+                    for(var i = 0; i < PatientList.length; i++) {
+                        if (publicKey.toLowerCase() == PatientList[i]) {
+                            location.href = "./patient.html?key=" + publicKey;
+                        }
+                    }
+                    
+                } else {
+                    console.log(error);
+                    console.log("Invalid User!");
+                    $(".alert-warning").show();
+                }
+            });
+
+            contractInstance.get_doctor_list(function(error, result){
+                if(!error){
+                    var DoctorList = result;
+                    for(var i = 0; i < DoctorList.length; i++) {
+                        if (publicKey.toLowerCase() == DoctorList[i]) {
+                            location.href = "./doctor.html?key=" + publicKey;
+                        }
+                    }
+                    
+                } else {
+                    console.log(error);
+                    $(".alert-warning").show();
+                }
+            }); 
+            
+            console.log("Invalid User!");
+            $(".alert-warning").show();
+        }
+
+     
+        
+    </script>
+
+</body>
+
+</html>
