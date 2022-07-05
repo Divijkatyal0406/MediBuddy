@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="cgapp logo" src="https://github.com/Divijkatyal0406/MediBuddy/blob/main/images/readme_header1.png" width="224px"/><br/>
+  <img alt="cgapp logo" src="https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/readme_header1.png" width="224px"/><br/>
   A Revolutionary e-Health Platform
 </h1>
 
