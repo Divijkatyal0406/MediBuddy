@@ -99,7 +99,7 @@ Here's a brief high-level overview of the tech stack the app uses:
   
 1. Open new Terminal and deploy contracts using `truffle migrate`
 2. Copy deployed contract address to src/app.js 
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/main/images/ganace-contracct.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/ganace-contracct.png)
 
 ```js
 // app/src/app.js  line number 11
@@ -114,9 +114,9 @@ var agentContractAddress = '0x75E115394aacC7c6063E593B9292CB9417E4cbeC';
 #### 1. Connecting Metamask to our local blockchain
   - Connect metamask to localhost:8485
   - Click on import account
-  ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/main/images/meta-1.png)
+  ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/meta-1.png)
   - Select any account from ganache and copy the private key to import account into metaMask
-  ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/main/images/con-g1.png)
+  ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/con-g1.png)
 
 #### 2. Starting IPFS 
   - Start the IPFS Desktop Application
@@ -129,7 +129,7 @@ var agentContractAddress = '0x75E115394aacC7c6063E593B9292CB9417E4cbeC';
 
 
 ## ✍️ Architecture Diagrams
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/main/images/dia1.png)
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/main/images/dia2.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/dia1.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/dia2.png)
 
 ## 🚨 Demo
