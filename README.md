@@ -23,7 +23,7 @@ DEMO**
 
 <br />
 
-[YouTube walk-through link](https://youtu.be/QLiTN3KWro8)
+[Demo Video](https://youtu.be/QLiTN3KWro8)
 
 ## 🧐 Project Philosophy
 
