@@ -136,10 +136,10 @@ var agentContractAddress = '0x75E115394aacC7c6063E593B9292CB9417E4cbeC';
 ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/dia2.png)
 
 ## 🚨 Project Screenshots
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122525%20-%20Copy.png)
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122525.png)
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122622.png)
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122703.png)
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122802.png)
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122828.png)
-![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122851.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/demo_ss/Screenshot%202022-07-08%20122525%20-%20Copy.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/demo_ss/Screenshot%202022-07-08%20122525.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/demo_ss/Screenshot%202022-07-08%20122622.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/demo_ss/Screenshot%202022-07-08%20122703.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/demo_ss/Screenshot%202022-07-08%20122802.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/demo_ss/Screenshot%202022-07-08%20122828.png)
+![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/demo_ss/Screenshot%202022-07-08%20122851.png)
