@@ -23,6 +23,9 @@ DEMO**
 
 <br />
 
+## 🔗 Links for project:  
+ 
+Video demo : [Watch Demo Video](https://youtu.be/QLiTN3KWro8)
 ## 🧐 Project Philosophy
 
 > The aim of this framework is firstly to implement blockchain technology for EHR (Electronic Health Records_ and secondly to provide secure storage of electronic records by defining granular access rules for the users (both patients and doctors) of the proposed framework. Moreover, this framework also discusses the scalability problem faced by the blockchain technology in general via use of off-chain storage of the records. This framework provides the EHR system with the benefits of having a scalable, secure and integral blockchain-based solution.
@@ -132,7 +135,7 @@ var agentContractAddress = '0x75E115394aacC7c6063E593B9292CB9417E4cbeC';
 ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/dia1.png)
 ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/images/dia2.png)
 
-## 🚨 Demo
+## 🚨 Project Screenshots
 ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122525%20-%20Copy.png)
 ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122525.png)
 ![alt text](https://github.com/Divijkatyal0406/MediBuddy/blob/master/Demo_ss_MediBuddy/Screenshot%202022-07-08%20122622.png)
